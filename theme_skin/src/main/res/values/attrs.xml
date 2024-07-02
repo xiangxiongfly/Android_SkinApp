@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    描述信息-->
+    <attr name="description" format="string" />
+    <!--    描述文本颜色-->
+    <attr name="descriptionColor" format="color" />
+    <!--    头像-->
+    <attr name="portrait" format="reference" />
+    <!--    头像颜色-->
+    <attr name="portraitColor" format="color" />
+    <!--    头像边框-->
+    <attr name="portraitBorder" format="reference" />
+    <!--    背景图片-->
+    <attr name="bgImage" format="reference" />
+    <!--    背景颜色-->
+    <attr name="bgColor" format="color" />
+</resources>

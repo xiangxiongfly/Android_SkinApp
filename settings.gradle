@@ -1,0 +1,2 @@
+rootProject.name = "SkinApp"
+include ':theme_skin'

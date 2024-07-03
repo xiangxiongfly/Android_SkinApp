@@ -1,2 +1,5 @@
 rootProject.name = "SkinApp"
 include ':theme_skin'
+include ':plugin_skin'
+include ':skin_pack:day'
+include ':skin_pack:night'

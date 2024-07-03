@@ -1,14 +1,14 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
-    id 'kotlin-android-extensions'
+//    id 'android-aspectjx'
 }
 
 android {
     compileSdkVersion 31
 
     defaultConfig {
-        applicationId "com.example.daynight"
+        applicationId "com.example.plugin_skin"
         minSdkVersion 22
         targetSdkVersion 31
         versionCode 1
@@ -28,6 +28,9 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+//    buildFeatures {
+//        viewBinding = true
+//    }
 }
 
 dependencies {
@@ -37,4 +40,15 @@ dependencies {
     implementation 'com.google.android.material:material:1.5.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     implementation 'androidx.fragment:fragment:1.5.1'
+
+    // 第三方库
+    // 依赖的反射库
+    implementation 'com.github.CoderAlee:Reflex:1.2.0'
+    // 核心库
+    implementation "com.github.CoderAlee.PaintedSkin:painted-skin:3.5.1.4"
+    implementation "com.github.CoderAlee.PaintedSkin:constraintlayout-compat:3.5.1.4"
+    implementation "com.github.CoderAlee.PaintedSkin:standard-plugin:3.5.1.4"
+    implementation "com.github.CoderAlee.PaintedSkin:typeface-plugin:3.5.1.4"
+
+    implementation "com.blankj:utilcodex:1.30.5"
 }
